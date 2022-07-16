@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+#main-content {
+  text-align:center;
+}
+
+footer {
+  margin-bottom: 0;
+}
+
+.background-view {
+  position:absolute;
+  background-color:blue;
+  z-index:-1;
+  bottom:300px;
+  width:100%;
+  margin:0 auto;
+  opacity:0.6;
+  display:block;
+  top:100px;
+}
+
+.icon-gear {
+  color:red;
+}
+
+.icon-tree {
+  color:red;
+}
